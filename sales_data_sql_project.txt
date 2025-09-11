@@ -1,0 +1,119 @@
+SALES DATA FOR SQL QUERY PROJECT:
+
+CREATE TABLE sales4 (
+    order_id INT PRIMARY KEY,
+    customer_id INT,
+    customer_name VARCHAR(50),
+    age INT,
+    gender VARCHAR(10),
+    city VARCHAR(50),
+    country VARCHAR(50),
+    product_id INT,
+    product_category VARCHAR(30),
+    quantity INT,
+    unit_price DECIMAL(10,2),
+    order_date DATE
+);
+
+INSERT INTO sales4 VALUES (2001, 51, 'Customer_51', 29, 'Male', 'Bangalore', 'India', 601, 'Electronics', 2, 1500, '2023-06-15');
+INSERT INTO sales4 VALUES (2002, 52, 'Customer_52', 34, 'Female', 'Mumbai', 'India', 602, 'Clothing', 1, 2500, '2023-06-20');
+INSERT INTO sales4 VALUES (2003, 53, 'Customer_53', 41, 'Male', 'Delhi', 'India', 603, 'Sports', 3, 800, '2023-07-02');
+INSERT INTO sales4 VALUES (2004, 54, 'Customer_54', 26, 'Female', 'New York', 'USA', 604, 'Home', 1, 3200, '2023-07-05');
+INSERT INTO sales4 VALUES (2005, 55, 'Customer_55', 38, 'Male', 'San Francisco', 'USA', 605, 'Electronics', 1, 12000, '2023-07-10');
+INSERT INTO sales4 VALUES (2006, 56, 'Customer_56', 22, 'Female', 'Chicago', 'USA', 606, 'Clothing', 2, 4000, '2023-07-18');
+INSERT INTO sales4 VALUES (2007, 57, 'Customer_57', 33, 'Male', 'London', 'UK', 607, 'Sports', 1, 1500, '2023-07-22');
+INSERT INTO sales4 VALUES (2008, 58, 'Customer_58', 45, 'Female', 'Manchester', 'UK', 608, 'Home', 2, 5200, '2023-08-01');
+INSERT INTO sales4 VALUES (2009, 59, 'Customer_59', 27, 'Male', 'Paris', 'France', 609, 'Electronics', 1, 1800, '2023-08-05');
+INSERT INTO sales4 VALUES (2010, 60, 'Customer_60', 36, 'Female', 'Berlin', 'Germany', 610, 'Clothing', 3, 3500, '2023-08-10');
+INSERT INTO sales4 VALUES (2011, 61, 'Customer_61', 30, 'Male', 'Tokyo', 'Japan', 611, 'Sports', 1, 2500, '2023-08-15');
+INSERT INTO sales4 VALUES (2012, 62, 'Customer_62', 42, 'Female', 'Sydney', 'Australia', 612, 'Home', 2, 4700, '2023-08-20');
+INSERT INTO sales4 VALUES (2013, 63, 'Customer_63', 24, 'Male', 'Bangalore', 'India', 613, 'Electronics', 1, 2200, '2023-08-25');
+INSERT INTO sales4 VALUES (2014, 64, 'Customer_64', 37, 'Female', 'Mumbai', 'India', 614, 'Clothing', 2, 3000, '2023-08-28');
+INSERT INTO sales4 VALUES (2015, 65, 'Customer_65', 48, 'Male', 'Delhi', 'India', 615, 'Sports', 1, 900, '2023-09-02');
+INSERT INTO sales4 VALUES (2016, 66, 'Customer_66', 29, 'Female', 'New York', 'USA', 616, 'Home', 1, 5600, '2023-09-06');
+INSERT INTO sales4 VALUES (2017, 67, 'Customer_67', 35, 'Male', 'San Francisco', 'USA', 617, 'Electronics', 2, 7500, '2023-09-12');
+INSERT INTO sales4 VALUES (2018, 68, 'Customer_68', 40, 'Female', 'Chicago', 'USA', 618, 'Clothing', 1, 2700, '2023-09-15');
+INSERT INTO sales4 VALUES (2019, 69, 'Customer_69', 31, 'Male', 'London', 'UK', 619, 'Sports', 4, 1100, '2023-09-20');
+INSERT INTO sales4 VALUES (2020, 70, 'Customer_70', 39, 'Female', 'Manchester', 'UK', 620, 'Home', 3, 6200, '2023-09-25');
+INSERT INTO sales4 VALUES (2021, 71, 'Customer_71', 28, 'Male', 'Paris', 'France', 621, 'Electronics', 1, 2800, '2023-10-02');
+INSERT INTO sales4 VALUES (2022, 72, 'Customer_72', 33, 'Female', 'Berlin', 'Germany', 622, 'Clothing', 2, 3300, '2023-10-06');
+INSERT INTO sales4 VALUES (2023, 73, 'Customer_73', 46, 'Male', 'Tokyo', 'Japan', 623, 'Sports', 1, 1900, '2023-10-12');
+INSERT INTO sales4 VALUES (2024, 74, 'Customer_74', 25, 'Female', 'Sydney', 'Australia', 624, 'Home', 2, 4300, '2023-10-16');
+INSERT INTO sales4 VALUES (2025, 75, 'Customer_75', 37, 'Male', 'Bangalore', 'India', 625, 'Electronics', 3, 5200, '2023-10-22');
+INSERT INTO sales4 VALUES (2026, 76, 'Customer_76', 41, 'Female', 'Mumbai', 'India', 626, 'Clothing', 1, 2900, '2023-10-28');
+INSERT INTO sales4 VALUES (2027, 77, 'Customer_77', 34, 'Male', 'Delhi', 'India', 627, 'Sports', 2, 1400, '2023-11-02');
+INSERT INTO sales4 VALUES (2028, 78, 'Customer_78', 23, 'Female', 'New York', 'USA', 628, 'Home', 1, 6700, '2023-11-07');
+INSERT INTO sales4 VALUES (2029, 79, 'Customer_79', 39, 'Male', 'San Francisco', 'USA', 629, 'Electronics', 2, 8800, '2023-11-12');
+INSERT INTO sales4 VALUES (2030, 80, 'Customer_80', 26, 'Female', 'Chicago', 'USA', 630, 'Clothing', 3, 3100, '2023-11-16');
+INSERT INTO sales4 VALUES (2031, 81, 'Customer_81', 35, 'Male', 'London', 'UK', 631, 'Sports', 1, 1700, '2023-11-22');
+INSERT INTO sales4 VALUES (2032, 82, 'Customer_82', 44, 'Female', 'Manchester', 'UK', 632, 'Home', 2, 5100, '2023-11-28');
+INSERT INTO sales4 VALUES (2033, 83, 'Customer_83', 30, 'Male', 'Paris', 'France', 633, 'Electronics', 1, 2600, '2023-12-04');
+INSERT INTO sales4 VALUES (2034, 84, 'Customer_84', 42, 'Female', 'Berlin', 'Germany', 634, 'Clothing', 2, 3500, '2023-12-10');
+INSERT INTO sales4 VALUES (2035, 85, 'Customer_85', 38, 'Male', 'Tokyo', 'Japan', 635, 'Sports', 1, 1200, '2023-12-16');
+INSERT INTO sales4 VALUES (2036, 86, 'Customer_86', 27, 'Female', 'Sydney', 'Australia', 636, 'Home', 3, 5900, '2023-12-20');
+INSERT INTO sales4 VALUES (2037, 87, 'Customer_87', 29, 'Male', 'Bangalore', 'India', 637, 'Electronics', 2, 4600, '2023-12-26');
+INSERT INTO sales4 VALUES (2038, 88, 'Customer_88', 36, 'Female', 'Mumbai', 'India', 638, 'Clothing', 1, 2800, '2023-12-30');
+INSERT INTO sales4 VALUES (2039, 89, 'Customer_89', 48, 'Male', 'Delhi', 'India', 639, 'Sports', 2, 1000, '2024-01-05');
+INSERT INTO sales4 VALUES (2040, 90, 'Customer_90', 31, 'Female', 'New York', 'USA', 640, 'Home', 1, 7200, '2024-01-10');
+INSERT INTO sales4 VALUES (2041, 91, 'Customer_91', 40, 'Male', 'San Francisco', 'USA', 641, 'Electronics', 3, 8100, '2024-01-15');
+INSERT INTO sales4 VALUES (2042, 92, 'Customer_92', 24, 'Female', 'Chicago', 'USA', 642, 'Clothing', 2, 2600, '2024-01-20');
+INSERT INTO sales4 VALUES (2043, 93, 'Customer_93', 37, 'Male', 'London', 'UK', 643, 'Sports', 1, 1500, '2024-01-25');
+INSERT INTO sales4 VALUES (2044, 94, 'Customer_94', 32, 'Female', 'Manchester', 'UK', 644, 'Home', 2, 5600, '2024-01-30');
+INSERT INTO sales4 VALUES (2045, 95, 'Customer_95', 28, 'Male', 'Paris', 'France', 645, 'Electronics', 1, 2900, '2024-02-04');
+INSERT INTO sales4 VALUES (2046, 96, 'Customer_96', 34, 'Female', 'Berlin', 'Germany', 646, 'Clothing', 3, 3700, '2024-02-09');
+INSERT INTO sales4 VALUES (2047, 97, 'Customer_97', 41, 'Male', 'Tokyo', 'Japan', 647, 'Sports', 2, 1800, '2024-02-14');
+INSERT INTO sales4 VALUES (2048, 98, 'Customer_98', 26, 'Female', 'Sydney', 'Australia', 648, 'Home', 1, 6400, '2024-02-19');
+INSERT INTO sales4 VALUES (2049, 99, 'Customer_99', 39, 'Male', 'Bangalore', 'India', 649, 'Electronics', 2, 4700, '2024-02-24');
+INSERT INTO sales4 VALUES (2050, 100, 'Customer_100', 45, 'Female', 'Mumbai', 'India', 650, 'Clothing', 1, 3200, '2024-02-29');
+INSERT INTO sales4 VALUES (2051, 51, 'Customer_51', 36, 'Male', 'Delhi', 'India', 651, 'Sports', 3, 1100, '2024-03-05');
+INSERT INTO sales4 VALUES (2052, 52, 'Customer_52', 29, 'Female', 'New York', 'USA', 652, 'Home', 2, 7100, '2024-03-10');
+INSERT INTO sales4 VALUES (2053, 53, 'Customer_53', 31, 'Male', 'San Francisco', 'USA', 653, 'Electronics', 1, 8400, '2024-03-15');
+INSERT INTO sales4 VALUES (2054, 54, 'Customer_54', 27, 'Female', 'Chicago', 'USA', 654, 'Clothing', 2, 3000, '2024-03-20');
+INSERT INTO sales4 VALUES (2055, 55, 'Customer_55', 33, 'Male', 'London', 'UK', 655, 'Sports', 1, 1600, '2024-03-25');
+INSERT INTO sales4 VALUES (2056, 56, 'Customer_56', 46, 'Female', 'Manchester', 'UK', 656, 'Home', 3, 5800, '2024-03-30');
+INSERT INTO sales4 VALUES (2057, 57, 'Customer_57', 38, 'Male', 'Paris', 'France', 657, 'Electronics', 2, 2500, '2024-04-04');
+INSERT INTO sales4 VALUES (2058, 58, 'Customer_58', 42, 'Female', 'Berlin', 'Germany', 658, 'Clothing', 1, 3400, '2024-04-09');
+INSERT INTO sales4 VALUES (2059, 59, 'Customer_59', 35, 'Male', 'Tokyo', 'Japan', 659, 'Sports', 2, 1300, '2024-04-14');
+INSERT INTO sales4 VALUES (2060, 60, 'Customer_60', 28, 'Female', 'Sydney', 'Australia', 660, 'Home', 1, 6900, '2024-04-19');
+INSERT INTO sales4 VALUES (2061, 61, 'Customer_61', 40, 'Male', 'Bangalore', 'India', 661, 'Electronics', 2, 5100, '2024-04-24');
+INSERT INTO sales4 VALUES (2062, 62, 'Customer_62', 25, 'Female', 'Mumbai', 'India', 662, 'Clothing', 1, 2700, '2024-04-29');
+INSERT INTO sales4 VALUES (2063, 63, 'Customer_63', 36, 'Male', 'Delhi', 'India', 663, 'Sports', 3, 1400, '2024-05-04');
+INSERT INTO sales4 VALUES (2064, 64, 'Customer_64', 29, 'Female', 'New York', 'USA', 664, 'Home', 2, 7300, '2024-05-09');
+INSERT INTO sales4 VALUES (2065, 65, 'Customer_65', 41, 'Male', 'San Francisco', 'USA', 665, 'Electronics', 1, 8600, '2024-05-14');
+INSERT INTO sales4 VALUES (2066, 66, 'Customer_66', 27, 'Female', 'Chicago', 'USA', 666, 'Clothing', 2, 3100, '2024-05-19');
+INSERT INTO sales4 VALUES (2067, 67, 'Customer_67', 38, 'Male', 'London', 'UK', 667, 'Sports', 1, 1500, '2024-05-24');
+INSERT INTO sales4 VALUES (2068, 68, 'Customer_68', 32, 'Female', 'Manchester', 'UK', 668, 'Home', 3, 6000, '2024-05-29');
+INSERT INTO sales4 VALUES (2069, 69, 'Customer_69', 28, 'Male', 'Paris', 'France', 669, 'Electronics', 2, 2700, '2024-06-03');
+INSERT INTO sales4 VALUES (2070, 70, 'Customer_70', 43, 'Female', 'Berlin', 'Germany', 670, 'Clothing', 1, 3500, '2024-06-08');
+INSERT INTO sales4 VALUES (2071, 71, 'Customer_71', 39, 'Male', 'Tokyo', 'Japan', 671, 'Sports', 2, 1200, '2024-06-13');
+INSERT INTO sales4 VALUES (2072, 72, 'Customer_72', 26, 'Female', 'Sydney', 'Australia', 672, 'Home', 1, 6800, '2024-06-18');
+INSERT INTO sales4 VALUES (2073, 73, 'Customer_73', 37, 'Male', 'Bangalore', 'India', 673, 'Electronics', 3, 4500, '2024-06-23');
+INSERT INTO sales4 VALUES (2074, 74, 'Customer_74', 30, 'Female', 'Mumbai', 'India', 674, 'Clothing', 2, 3300, '2024-06-28');
+INSERT INTO sales4 VALUES (2075, 75, 'Customer_75', 44, 'Male', 'Delhi', 'India', 675, 'Sports', 1, 1100, '2024-07-03');
+INSERT INTO sales4 VALUES (2076, 76, 'Customer_76', 28, 'Female', 'New York', 'USA', 676, 'Home', 2, 7000, '2024-07-08');
+INSERT INTO sales4 VALUES (2077, 77, 'Customer_77', 42, 'Male', 'San Francisco', 'USA', 677, 'Electronics', 1, 8900, '2024-07-13');
+INSERT INTO sales4 VALUES (2078, 78, 'Customer_78', 27, 'Female', 'Chicago', 'USA', 678, 'Clothing', 2, 3200, '2024-07-18');
+INSERT INTO sales4 VALUES (2079, 79, 'Customer_79', 35, 'Male', 'London', 'UK', 679, 'Sports', 3, 1700, '2024-07-23');
+INSERT INTO sales4 VALUES (2080, 80, 'Customer_80', 31, 'Female', 'Manchester', 'UK', 680, 'Home', 1, 6500, '2024-07-28');
+INSERT INTO sales4 VALUES (2081, 81, 'Customer_81', 29, 'Male', 'Paris', 'France', 681, 'Electronics', 2, 3000, '2024-08-02');
+INSERT INTO sales4 VALUES (2082, 82, 'Customer_82', 34, 'Female', 'Berlin', 'Germany', 682, 'Clothing', 1, 3600, '2024-08-07');
+INSERT INTO sales4 VALUES (2083, 83, 'Customer_83', 40, 'Male', 'Tokyo', 'Japan', 683, 'Sports', 2, 1400, '2024-08-12');
+INSERT INTO sales4 VALUES (2084, 84, 'Customer_84', 27, 'Female', 'Sydney', 'Australia', 684, 'Home', 3, 6200, '2024-08-17');
+INSERT INTO sales4 VALUES (2085, 85, 'Customer_85', 38, 'Male', 'Bangalore', 'India', 685, 'Electronics', 1, 4900, '2024-08-22');
+INSERT INTO sales4 VALUES (2086, 86, 'Customer_86', 25, 'Female', 'Mumbai', 'India', 686, 'Clothing', 2, 2800, '2024-08-27');
+INSERT INTO sales4 VALUES (2087, 87, 'Customer_87', 36, 'Male', 'Delhi', 'India', 687, 'Sports', 1, 1500, '2024-09-01');
+INSERT INTO sales4 VALUES (2088, 88, 'Customer_88', 30, 'Female', 'New York', 'USA', 688, 'Home', 2, 7400, '2024-09-06');
+INSERT INTO sales4 VALUES (2089, 89, 'Customer_89', 43, 'Male', 'San Francisco', 'USA', 689, 'Electronics', 3, 8700, '2024-09-11');
+INSERT INTO sales4 VALUES (2090, 90, 'Customer_90', 28, 'Female', 'Chicago', 'USA', 690, 'Clothing', 1, 3100, '2024-09-16');
+INSERT INTO sales4 VALUES (2091, 91, 'Customer_91', 41, 'Male', 'London', 'UK', 691, 'Sports', 2, 1600, '2024-09-21');
+INSERT INTO sales4 VALUES (2092, 92, 'Customer_92', 26, 'Female', 'Manchester', 'UK', 692, 'Home', 1, 6700, '2024-09-26');
+INSERT INTO sales4 VALUES (2093, 93, 'Customer_93', 37, 'Male', 'Paris', 'France', 693, 'Electronics', 2, 2800, '2024-10-01');
+INSERT INTO sales4 VALUES (2094, 94, 'Customer_94', 32, 'Female', 'Berlin', 'Germany', 694, 'Clothing', 3, 3400, '2024-10-06');
+INSERT INTO sales4 VALUES (2095, 95, 'Customer_95', 39, 'Male', 'Tokyo', 'Japan', 695, 'Sports', 1, 1200, '2024-10-11');
+INSERT INTO sales4 VALUES (2096, 96, 'Customer_96', 27, 'Female', 'Sydney', 'Australia', 696, 'Home', 2, 7100, '2024-10-16');
+INSERT INTO sales4 VALUES (2097, 97, 'Customer_97', 35, 'Male', 'Bangalore', 'India', 697, 'Electronics', 1, 5300, '2024-10-21');
+INSERT INTO sales4 VALUES (2098, 98, 'Customer_98', 29, 'Female', 'Mumbai', 'India', 698, 'Clothing', 2, 2900, '2024-10-26');
+INSERT INTO sales4 VALUES (2099, 99, 'Customer_99', 44, 'Male', 'Delhi', 'India', 699, 'Sports', 3, 1700, '2024-10-31');
+INSERT INTO sales4 VALUES (2100, 100, 'Customer_100', 31, 'Female', 'New York', 'USA', 700, 'Home', 1, 7600, '2024-11-05');
+
+select * from sales4;
