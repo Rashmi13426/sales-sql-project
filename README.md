@@ -103,11 +103,12 @@ Insight: Recognizes loyal/repeat customers.
 Insight: This query directly translates into a marketing strategy — showing the most profitable customer segment for ad targeting.
 
 ## Key Insights
-- Total Revenue: ₹X million
-- Top 3 Product Categories: Electronics, Clothing, Home Appliances
-- Most Valuable Customers: [Customer Names] contributing highest revenue
+- Total Revenue: ₹704700 million
+- Top 3 Product Categories: Home Appliances,Electronics,Clothing
+- Most Valuable Customers:
+Customer_89, Customer_91, Customer_84 ,Customer_56, Customer_96 contributes highest revenue
 - Revenue by Age Group: 26-35 age group generates maximum revenue
-- Geographic Insights: Top-performing markets – USA, India
+- Geographic Insights: Top-performing markets – USA, India, UK
 - Time-based Trends: Peak sales observed in November and December
 - Repeat Customers: Identified loyal customers for retention strategies
 
